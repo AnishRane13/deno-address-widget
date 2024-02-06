@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkkkk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="objectDisplay"></div>
+
+    <label for="outputTextbox">You have chosen:</label>
+    <input type="text" id="outputTextbox" readonly>
+
+    <form id="addressForm">
+        <label for="inputText">Enter the remaining portion of the address:</label>
+        <input type="text" id="inputText" name="inputText" required><br>
+
+        <input type="button" value="Submit" onclick="submitForm()"><br>
+        <input type="button" value="Clear Storage" onclick="clearStorage()"><br>
+        <input type="button" value="Reset Textboxes" onclick="resetTextboxes()"><br>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
